@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        docker {
-            image 'qaninja/rubywd'
-        }
+        dockerfile true 
     }
     
     stages{
